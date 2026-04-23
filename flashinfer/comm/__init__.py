@@ -66,3 +66,6 @@ from .trtllm_moe_alltoall import (
 )
 
 # from .mnnvl import MnnvlMemory, MnnvlMoe, MoEAlltoallInfo
+
+# GEMM + Reduce-Scatter (high-throughput TP, sequence-parallel)
+from .gemm_reduce_scatter import gemm_reduce_scatter as gemm_reduce_scatter
